@@ -9,7 +9,7 @@ function App() {
         <div className="top-0 left-0 w-full h-full bg-indigo-500 opacity-20 blur-xl rounded-full transform scale-110"></div>
       </h1>
 
-      <div className="bg-indigo-600 px-2 text-sm rounded rotate-12 absolute">
+      <div className="bg-indigo-600 px-2 text-smm rounded rotate-12 absolute">
         Page Not Found
       </div>
 
