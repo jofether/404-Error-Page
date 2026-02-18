@@ -3,7 +3,6 @@ import React from 'react';
 function App() {
   return (
     // CONTAINER: Full viewport centering
-    // FUTURE BUG: Remove 'items-center justify-center' to break layout
     <div className="min-h-screen bg-gray-900 flex flex-col items-center justify-center p-4 text-center">
       
       {/* 404 Graphic */}
