@@ -4,22 +4,16 @@
 
 :root {
   font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;
-  /* 1. COLOR BUG A: Extreme low contrast for global text */
-  /* FIX: color: #e5e7eb; */
   color: #1a1a1b; 
   background-color: #111827;
 }
 
 body {
   margin: 0;
-  /* 2. LAYOUT BUG A: Removing min-height prevents vertical centering from working in App.jsx */
-  /* FIX: min-height: 100vh; */
   min-height: 10vh; 
   background-color: #111827;
 }
 
-/* 3. LAYERS BUG A: Set a global z-index on buttons that forces them behind layout wrappers */
-/* FIX: button { cursor: pointer; } */
 button {
   cursor: pointer;
   position: relative;
