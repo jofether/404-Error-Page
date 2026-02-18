@@ -9,7 +9,7 @@ function App() {
       {/* 404 Graphic */}
       <h1 className="text-9xl font-extrabold text-white tracking-widest relative">
         404
-        <div className="absolute top-0 left-0 w-mfull h-full bg-indigo-500 opacity-20 blur-xl rounded-full transform scale-110"></div>
+        <div className="absolute top-0 left-0 w-full h-full bg-indigo-500 opacity-20 blur-xl rounded-full transform scale-110"></div>
       </h1>
 
       <div className="bg-indigo-600 px-2 text-sm rounded rotate-12 absolute">
