@@ -8,7 +8,7 @@
       "line_number": 6,
       "clean_code": "<div className=\"min-h-screen bg-gray-900 flex flex-col items-center justify-center p-4 text-center\">",
       "buggy_code": "<div className=\"min-h-screen bg-gray-900 flex flex-col justify-center p-4 text-center\">",
-      "css_selector": ".flex.flex-col",
+      "css_selector": ".min-h-screen.bg-gray-900.flex.flex-col",
       "bounding_box": { "x": 0, "y": 0, "width": 1280, "height": 720 }
     },
     {
@@ -18,8 +18,8 @@
       "line_number": 10,
       "clean_code": "<div className=\"absolute top-0 left-0 w-full h-full bg-indigo-500 opacity-20 blur-xl rounded-full transform scale-110\"></div>",
       "buggy_code": "<div className=\"top-0 left-0 w-full h-full bg-indigo-500 opacity-20 blur-xl rounded-full transform scale-110\"></div>",
-      "css_selector": ".bg-indigo-500",
-      "bounding_box": { "x": 16, "y": 16, "width": 1248, "height": 128 }
+      "css_selector": ".bg-indigo-500.opacity-20.blur-xl.rounded-full",
+      "bounding_box": { "x": 0, "y": 0, "width": 1280, "height": 400 }
     },
     {
       "comment": "Bug #3 - font-size",
@@ -28,7 +28,7 @@
       "line_number": 13,
       "clean_code": "<div className=\"bg-indigo-600 px-2 text-sm rounded rotate-12 absolute\">",
       "buggy_code": "<div className=\"bg-indigo-600 px-2 text-smm rounded rotate-12 absolute\">",
-      "css_selector": ".text-smm",
+      "css_selector": ".bg-indigo-600.px-2.rounded",
       "bounding_box": { "x": 16, "y": 403, "width": 138, "height": 24 }
     },
     {
@@ -39,8 +39,8 @@
       "line_number": 21,
       "clean_code": "<p className=\"text-gray-400 mb-8\">",
       "buggy_code": "<p className=\"text-gray-400 mb-[500px]\">",
-      "css_selector": ".mb-[500px]",
-      "bounding_box": { "x": 16, "y": 240, "width": 512, "height": 24 }
+      "css_selector": "p.text-gray-400",
+      "bounding_box": { "x": 16, "y": 240, "width": 512, "height": 600 }
     },
     {
       "comment": "Bug #5 - margin",
@@ -49,8 +49,8 @@
       "line_number": 25,
       "clean_code": "<div className=\"flex justify-center space-x-4\">",
       "buggy_code": "<div className=\"flex justify-center\">",
-      "css_selector": ".flex.justify-center",
-      "bounding_box": { "x": 0, "y": 0, "width": 0, "height": 0 }
+      "css_selector": "div:has(> button)",
+      "bounding_box": { "x": 300, "y": 400, "width": 680, "height": 100 }
     },
     {
       "comment": "Bug #6 - background-color",
@@ -59,8 +59,8 @@
       "line_number": 27,
       "clean_code": "<button className=\"px-6 py-3 bg-indigo-600 text-white font-medium rounded-lg hover:bg-indigo-700 transition shadow-lg hover:shadow-indigo-500/30\">",
       "buggy_code": "<button className=\"px-6 py-3 bg-red-600 text-white font-medium rounded-lg hover:bg-indigo-700 transition\">",
-      "css_selector": ".bg-red-600",
-      "bounding_box": { "x": 0, "y": 0, "width": 0, "height": 0 }
+      "css_selector": "button:first-of-type",
+      "bounding_box": { "x": 400, "y": 400, "width": 480, "height": 80 }
     },
     {
       "comment": "Bug #7 - border-radius",
@@ -69,8 +69,8 @@
       "line_number": 31,
       "clean_code": "<button className=\"px-6 py-3 border border-gray-600 text-gray-300 font-medium rounded-lg hover:bg-gray-800 transition\">",
       "buggy_code": "<button className=\"px-6 py-3 border border-gray-600 text-gray-300 font-medium roundeddd-lg\">",
-      "css_selector": ".roundeddd-lg",
-      "bounding_box": { "x": 0, "y": 0, "width": 0, "height": 0 }
+      "css_selector": "button:last-of-type",
+      "bounding_box": { "x": 400, "y": 400, "width": 480, "height": 80 }
     },
     {
       "comment": "Bug #8 - color",
@@ -98,8 +98,8 @@
       "bug_type": "z-index",
       "clean_code": "button {\\n  cursor: pointer;\\n}",
       "buggy_code": "button {\\n  cursor: pointer;\\n  position: relative;\\n  z-index: -10;",
-      "css_selector": "button",
-      "bounding_box": { "x": 0, "y": 0, "width": 0, "height": 0 }
+      "css_selector": ".min-h-screen.bg-gray-900",
+      "bounding_box": { "x": 0, "y": 0, "width": 1280, "height": 720 }
     }
   ]
 }
