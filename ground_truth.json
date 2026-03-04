@@ -98,8 +98,8 @@
       "bug_type": "z-index",
       "clean_code": "button {\\n  cursor: pointer;\\n}",
       "buggy_code": "button {\\n  cursor: pointer;\\n  position: relative;\\n  z-index: -10;",
-      "css_selector": ".min-h-screen.bg-gray-900",
-      "bounding_box": { "x": 0, "y": 0, "width": 1280, "height": 720 }
+      "css_selector": "button",
+      "bounding_box": { "x": 400, "y": 400, "width": 480, "height": 80 }
     }
   ]
 }
