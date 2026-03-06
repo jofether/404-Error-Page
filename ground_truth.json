@@ -112,7 +112,7 @@
       "bug_type": "z-index",
       "file_modified": "src/index.css",
       "pos_code": "button {\\n  cursor: pointer;\\n  position: relative;\\n  z-index: -10;\\n}",
-      "neg_code": "button {\\n  cursor: pointer;\\n}",
+      "neg_code": "button { cursor: pointer; }",
       "css_selector": "button",
       "bounding_box": { "x": 400, "y": 400, "width": 480, "height": 80 }
     }
